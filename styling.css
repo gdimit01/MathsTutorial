@@ -1,0 +1,47 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container */
+#container {
+  width: 800px;
+  height: 1050px;
+  border: 1px solid grey;
+  margin: 0 auto;
+}
+
+/* Header */
+#header {
+  background-color: #2e7d32;
+  padding: 10px 0;
+  color: #fff;
+  text-align: center;
+}
+
+#brand a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.5em;
+}
+
+#brand a:hover {
+  text-decoration: underline;
+}
+
+/* Headings */
+h1 a {
+  font-size: medium;
+  font-weight: 100;
+  color: #333; /* Dark gray color */
+  text-decoration: none; /* Removing the underline */
+  transition: color 0.3s ease; /* Smooth transition for hover effects */
+}
+
+h1 a:hover {
+  color: #2e7d32; /* Green color on hover */
+  text-decoration: underline; /* Underline on hover */
+}
